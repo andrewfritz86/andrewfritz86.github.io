@@ -3,11 +3,24 @@ img{
   margin-bottom: 12px;
 }
 
-.info{
+.info {
   font-family: 'Karla', sans-serif;
   margin-bottom: 30px;
   line-height: 26px;
 }
+
+.attempting {
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: 2px solid white;
+  transition: all 0.5s;
+  transition-delay: 1s;
+}
+
+.attempting.underline {
+  border-bottom-color: black;
+}
+
 
 .highlight{
   font-family: 'Karla', sans-serif;
@@ -32,9 +45,6 @@ img{
   margin: 0 auto;
 }
 
-.image {
-  /*width: 100%;*/
-}
 
 .about-wrapper {
   margin: 0 auto;
@@ -70,15 +80,6 @@ a:active {
   margin-bottom: 12px;
   padding: 12px 12px;
 
-  cursor: pointer;
-  user-select: none;
-  transition: all 60ms ease-in-out;
-  text-align: center;
-  white-space: nowrap;
-  text-decoration: none !important;
-  text-transform: none;
-  text-transform: capitalize;
-
   color: #fff;
   border: 0 none;
   border-radius: 4px;
@@ -90,10 +91,7 @@ a:active {
   -webkit-appearance: none;
   -moz-appearance:    none;
   appearance:         none;
- 
-  justify-content: center;
-  align-items: center;
-  flex: 0 0 160px;
+
 }
 
 .button:hover {
