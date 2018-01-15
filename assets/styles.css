@@ -11,7 +11,15 @@
 
 .button {
   display: block;
+  border-radius: 0;
+  border-color: black;
+
 }
+
+.button:hover {
+  border-color: gray;
+}
+
 .links-wrapper {
   margin-bottom: 2.5rem;
 }
