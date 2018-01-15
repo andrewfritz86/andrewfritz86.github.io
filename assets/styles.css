@@ -6,18 +6,38 @@
   transform: translate(-50%, -50%);
   width: 85%;
   margin-bottom: 2rem;
+  color: black;
   
 }
+.title {
+  margin-top: 2rem;
+  display: inline;
+}
 
+.icon {
+  display: inline;
+  width: 85px;
+}
+
+.top {
+  margin-bottom: 1rem;
+}
+
+.title-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
 .button {
   display: block;
   border-radius: 0;
-  border-color: black;
+  border-color: #00D615;
+  color: #00D615;
 
 }
 
 .button:hover {
-  border-color: gray;
+  border-color: #82C8FF;
+  color: #82C8FF;
 }
 
 .links-wrapper {
@@ -28,14 +48,12 @@
   font-size: 12px;
 }
 
-.title {
-  margin-top: 2rem;
-}
 
 
 @media (min-width: 550px) {
   .button {
     display: inline-block;
+    margin-bottom: 0;
   }
 
   .center {
